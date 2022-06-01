@@ -11,5 +11,5 @@ func (c Circle) CalcPerimeter() float64 {
 }
 
 func (c Circle) CalcArea() float64 {
-	return math.Pi * math.Pow(2, c.Radius)
+	return math.Pi * math.Pow(c.Radius, 2)
 }
